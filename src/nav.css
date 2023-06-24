@@ -1,0 +1,40 @@
+.Nav{
+    background-color: var(--clr-template);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px ridge var(--clr-template);
+    position: sticky;
+    top: 0px;
+    opacity: 95%;
+    font-family: 'Barlow';
+  }
+  .Nav > .logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Nav > .logo > img{
+    height: 80%;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .Nav > a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Nav > a:hover{
+    background-color: var(--clr-template-light);
+    color: rgb(255, 255, 255);
+    transition: .5s;
+    font-size: 1.85rem;
+  }

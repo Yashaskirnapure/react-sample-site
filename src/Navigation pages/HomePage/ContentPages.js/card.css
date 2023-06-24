@@ -1,0 +1,13 @@
+.Card{
+    width: 65%;
+    padding: 1rem;
+    color: var(--clr-template);
+  }
+  .Card > h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  .Card > p{
+    padding: 0.3rem;
+    font-size: 1.2rem
+  }

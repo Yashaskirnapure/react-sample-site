@@ -1,0 +1,40 @@
+.SignUp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 500px;
+    }
+    .SignUp > h2{
+    font-family: 'Barlow';
+    margin-bottom: .8rem;
+    }
+    .SignUp > .signUpForm{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .SignUp > .signUpForm > label{
+    display: none;
+    }
+    .SignUp > .signUpForm > input{
+    flex-grow: 1;
+    padding: 0.8rem;
+    margin: .4rem;
+    width: calc(50% - 1.6rem);
+    }
+    .SignUp > .signUpForm > button{
+    margin: 0.4rem;
+    width: 18%;
+    font-family: 'Barlow';
+    background-color: rgb(185, 185, 185);
+    color: #050b1a;
+    font-weight: bolder;
+    border-radius: 3px;
+    }
+    .SignUp > .signUpForm > button:hover{
+    cursor: pointer;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    transition: .3s;
+    }

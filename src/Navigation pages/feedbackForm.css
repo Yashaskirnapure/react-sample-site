@@ -1,0 +1,49 @@
+.feedbackForm{
+    font-family: 'Nunito';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
+    border-radius: 30px;
+    width: 55%;
+    margin: 50px auto;
+    padding: 2rem;
+    box-shadow: 2px 2px gray;
+    flex-grow: 1;
+    min-width: 500px;
+  }
+  .feedbackForm > h1{
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .feedbackForm > form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  .feedbackForm > form > label{
+    margin-top: 30px;
+    font-size: 1.6rem;
+  }
+  .feedbackForm > form > input, textarea{
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px ridge gray;
+    min-width: 300px;
+  }
+  .feedbackForm > form > .Submit{
+    align-self: center;
+    width: 20%;
+    margin-top: 1rem;
+    padding: 0.8rem 1rem;
+    border-radius: 5px;
+    border-width: 1px;
+    min-width: 100px;
+  }
+  .feedbackForm > form > .Submit:hover{
+    cursor: pointer;
+    background-color: rgb(207, 207, 207);
+    transition: 0.5s;
+  }
+

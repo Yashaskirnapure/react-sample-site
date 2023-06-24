@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import './nav.css';
 
 const Nav = () => {
   return (
@@ -8,8 +9,12 @@ const Nav = () => {
       </div>
         <Link to='/'>Home</Link>
         <Link to='/members'>Members</Link>
-        <Link to='/about'>About</Link>
         <Link to='/feedback'>Feedback</Link>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
     </nav>
   )
 }

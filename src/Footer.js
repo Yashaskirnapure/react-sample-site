@@ -1,8 +1,12 @@
-import React from 'react'
+import SignUp from './FooterPages/SignUp';
+import './footer.css'
 
 const Footer = () => {
+  const today = new Date();
   return (
-    <div>Footer</div>
+    <footer className="Footer">
+      <SignUp />
+    </footer>
   )
 }
 

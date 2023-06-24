@@ -1,4 +1,5 @@
-import Card from "./ContentPages.js/Card"
+import Card from "./ContentPages.js/Card";
+import './content.css';
 
 const Content = () => {
     const content = [

@@ -1,0 +1,11 @@
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-top: 40px;
+    font-family: 'Barlow';
+    font-weight: bolder;
+    line-height: 35px;
+  }
